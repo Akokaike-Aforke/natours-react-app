@@ -40,6 +40,7 @@ function App() {
   return (
     <>
       <h1>headings and tours...</h1>
+      <p>The long days ahead</p>
       {data2.tours.map((item) => (
         <h1 key={item.id}>{item.name}</h1>
       ))}
